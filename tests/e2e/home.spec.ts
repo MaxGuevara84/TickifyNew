@@ -9,7 +9,7 @@ test.describe('Home Page', () => {
 
     await expect(
       await page.getByTestId(testIds.HOME_PAGE.HEADER)
-    ).toHaveScreenshot('home-header.png', {
+    ).toHaveScreenshot('green and black wallpaper.jpeg', {
       mask: [page.getByTestId(testIds.LAYOUT.HEADER)],
     });
   });
